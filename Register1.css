@@ -1,0 +1,20 @@
+.XCV
+{
+    background-image: url("wellbeing_guide.jpg");
+    background-size:cover;
+    height: 900px;
+    width: 1500px;
+}
+.XCVV
+{
+    margin-top: 30px;
+  margin-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color:rgb(81, 230, 218);
+  border-style:dashed;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  text-align:left;
+}
