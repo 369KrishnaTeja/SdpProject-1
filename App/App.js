@@ -1,19 +1,16 @@
-import Home from './Home';
+import Login from './Login';
+import Home from './Home1/Home';
 import './App.css';
-import {BrowserRouter,Route,Link,Switch} from 'react-router-dom';
+import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import register from './register';
-
-function App() {
+export default function App() {
     return <div>
          <BrowserRouter>
-             <Link to="/">Login</Link>
-             <text> | Dont have an account </text>
-             <Link to="/register">Register</Link>
          <Switch>
-         <Route path="/" component={Home} exact/>
+         <Route path="/" component={Login} exact/>
          <Route path="/register" component={register} exact/>
+         <Route path="/Home" component={Home} exact/>
          </Switch>
          </BrowserRouter>
          </div>
 }
-export default App;
